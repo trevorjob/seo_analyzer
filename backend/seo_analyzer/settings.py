@@ -25,11 +25,11 @@ SECRET_KEY = "django-insecure-gzdq=or_e-hkx@$7%p+59u*8(!hhu*&*$svvqr%!)x%%aa^7ev
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['seo-analyzer-e6el.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React frontend (adjust this if your frontend is hosted elsewhere)
-    'https://your-frontend-url.com',  # Add your deployed frontend domain
+    'https://seo-analyzer-1.onrender.com',  # Add your deployed frontend domain
 ]
 CORS_ALLOW_CREDENTIALS = True
 
