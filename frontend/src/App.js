@@ -13,9 +13,12 @@ const App = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:8000/api/analyze/", {
-        url,
-      });
+      const response = await axios.post(
+        "https://seo-analyzer-e6el.onrender.com/api/analyze/",
+        {
+          url,
+        }
+      );
       setResult(response.data);
     } catch (err) {
       setError("An error occurred while fetching data.");
